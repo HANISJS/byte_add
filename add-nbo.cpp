@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
 
     if (read1 != 1 || read2 != 1) {
         printf("Error reading file(s).\n");
-        return 1;
+        return 0;
     }
 
     num1 = ntohl(num1);

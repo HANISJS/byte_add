@@ -1,4 +1,3 @@
-#Makefile
 CC=gcc
 CFLAGS=-c -Wall
 LDFLAGS=
